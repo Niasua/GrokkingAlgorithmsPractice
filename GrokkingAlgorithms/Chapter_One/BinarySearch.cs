@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,12 @@ namespace GrokkingAlgorithms.Chapter_One
     {
         public static void run()
         {
-            
+            int[] list = { 1, 3, 5, 7, 9 };
+
+            // looking for 3
+            Console.WriteLine(binarySearch(list, 3)); // --> 1
+            // looking for -1
+            Console.WriteLine(binarySearch(list, -1)); // --> -1
         }
         public static int binarySearch(int[] list, int item)
         {
