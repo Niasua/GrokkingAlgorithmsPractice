@@ -1,2 +1,4 @@
 ﻿using GrokkingAlgorithms.Chapter_One;
-BinarySearch.run();
+using GrokkingAlgorithms.Chapter_Two;
+//BinarySearch.run()
+SelectionSort.run();
